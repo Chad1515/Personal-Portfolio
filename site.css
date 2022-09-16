@@ -1,0 +1,157 @@
+/**
+==============================================
+; Title: Personal Portfolio
+; Author: Chad ONeal
+; Modified by: Chad ONeal
+; Date: 09/11/2022
+; Images: Background Image courtesy of unplash.com 
+; Description: HTML for personal portfolio
+==============================================
+*/ 
+
+body, html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    height: 125px; 
+    background-color: #CCC5C6;    
+}
+
+.nav-menu li {
+    display: inline-block; 
+    margin: 45px 0px 0px 105px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: #47525E;
+    font-family: 'Karla';
+    font-size: 30px;    
+}
+
+.nav-menu a:hover {
+    color: #F8F8F8;
+    transition: .20s;
+
+}
+
+/* The hero image */
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.384)), url("./images/jr-korpa-ZkngO3nRFCY-unsplash.jpg");
+    height: 106.75%;
+    background-repeat: no-repeat;
+    background-size: 1980px 1020px;
+    margin-top: -.95%;
+    
+    
+}
+  
+/* Place text in the image */
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 27%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    color: #F8F8F8;
+    font-family: 'Karla';
+    font-size: 30px; 
+}
+
+
+button {
+    margin-left: 39%;
+    margin-top: 20%;
+    width: 15%;
+    height: 7%;
+    background-color: #CCC5C6;
+    color: #47525E;
+    align-items: center; 
+    border: none; 
+    border-radius: 12px;
+    box-shadow: rgba(145, 2, 2, 0.863) 0 15px 30px -5px;
+    box-sizing: border-box;
+    font-family: 'Karla';
+    font-size: 20px;
+    line-height: -1em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button a {
+    font-size: 35px;
+    font-family: "Karla";
+    text-decoration: none;
+    color: #47525E;
+}
+
+button a:hover {
+    color: #F8F8F8;
+    transition: .20s;
+}
+
+.gallery {
+    float: right;
+    margin-right: 27%;
+    margin-top: 4%;    
+        
+}
+
+.gallery img {
+    border-radius: 50%;
+    border: .000001px solid #CCC5C6;
+}
+
+img {
+    text-decoration: none;
+}
+
+footer {
+    height: 175px; 
+    background-color: #CCC5C6;
+    margin-top: -3%;
+    font-size: 30px; 
+    font-family: 'Karla';  
+    color: #47525E; 
+}
+
+footer ul li {
+    list-style: none;
+    margin-left: 2.5%;
+    display: inline-block;
+    
+}
+
+footer a {
+    font-size: 75px;
+    margin-left: 35%;
+    color: black;
+    margin-top: 1.5%;
+    text-decoration: none;
+    
+}
+
+footer a:hover {
+    transform: translate(-50%, -50%);
+    color: #F8F8F8;
+    transition: .20s;
+    text-decoration: none;
+}
+
+.center {
+    margin-left: 35%;
+}
+
+
+  
+
+
+
+
+
+
