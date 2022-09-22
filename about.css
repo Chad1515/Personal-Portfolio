@@ -55,17 +55,19 @@ header {
 .hero-text {
     text-align: left;
     position: absolute;
-    top: 27%;
-    left: 17%;
+    margin-left: 35.5%;
+    margin-top: 18%;
     transform: translate(-50%, -50%);
     color: #F8F8F8;
     font-family: 'Karla';
     font-size: 30px; 
 }
 
-.grid { 
-    display: gird;
-    grid-template-columns: auto auto;
+.hero-text p {
+    margin-left: -1%;
+    font-size: 40px;
+    margin-top: 3%;
+    
 }
 
 
@@ -104,18 +106,26 @@ button a:hover {
 
 .gallery {
     float: right;
-    margin-right: 27%;
+    margin-right: 20%;
     margin-top: 4%;    
         
 }
 
 .gallery img {
     border-radius: 50%;
-    border: .000001px solid #CCC5C6;
+    border: 1px solid #F8F8F8;
 }
 
 img {
     text-decoration: none;
+}
+
+iframe {
+    margin-top: 37%;
+    margin-left: 34%;
+    border: 3px solid #F8F8F8;
+    border-radius: 6%;
+    
 }
 
 footer {
@@ -153,12 +163,3 @@ footer a:hover {
 .center {
     margin-left: 35%;
 }
-
-
-  
-
-
-
-
-
-
