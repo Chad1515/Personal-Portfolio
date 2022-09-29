@@ -354,7 +354,7 @@ footer a:hover {
     /* Place text in the image */
     .hero-text {
         text-align: left;        
-        top: 55%;
+        margin-top: 40%;
         margin-left: 107%;
         transform: translate(-50%, -50%);
         color: #db1818;
@@ -505,12 +505,6 @@ footer a:hover {
         
     }
 
-    .card2 p p2
-    
-
-    
-
-    
     .skills {
         float: right; 
         width: 47%; 
@@ -573,7 +567,7 @@ footer a:hover {
         list-style: none;
         margin-left: -7%;
         display: inline-block;
-        padding-left: 7%;
+        padding-left: 5%;
         margin-top: 2%;
         
         
@@ -604,4 +598,75 @@ footer a:hover {
     height: 12px;
     width: 12px;
 }
+
+@media (min-width: 360px) and (max-width: 780px){
+    
+    iframe {
+        margin-top: 74%;
+        margin-left: 10%;
+        border: 3px solid #F8F8F8;
+        border-radius: 6%;
+        height: fit-content;
+        width: fit-content;
+            
+    }
+
+    .hero-text {
+        text-align: left;        
+        margin-top: 87%;
+        margin-left: 107%;
+        transform: translate(-50%, -50%);
+        color: #db1818;
+        font-family: 'Karla';
+        font-size: 10px; 
+        word-break: normal;
+    }
+
+    .hero-image {
+        height: 100%;
+    }
+
+    footer {
+        height: 89px;
+    }
+
+    footer a {
+        font-size: 20px;
+
+    }
+
+}
+    
+@media (min-width: 360px) and (max-width: 800px){
+    
+    .hero-image {
+        height: 123.75%;
+    }
+
+    footer {
+        font-size: 6.5px;
+        height: 94px;
+    }
+    
+
+    footer ul li {
+        margin-left: -8%;
+    }
+
+    .center {
+        margin-left: 40%;
+        height: 18px;
+        width: 18px;
+    }
+    
+    .bell {
+        height: 16px;
+        width: 16px;
+        margin-left: -10%;
+    }
+
+    
+
+}
+
 }

@@ -146,3 +146,145 @@ footer a:hover {
 .center {
     margin-left: 35%;
 }
+
+@media (min-width: 360px) and (max-width: 640px){
+
+    body, html {
+        height: 100%;
+    }
+    
+    body {
+        margin: 0;
+    }
+    
+    header {
+        height: 115px; 
+        background-color: #CCC5C6;    
+    }
+    
+    .nav-menu li {
+        margin: 10px 8px 2px 48.5px;       
+        
+    }
+    
+    .nav-menu li a {
+        text-decoration: none;
+        color: #47525E;
+        font-family: 'Karla';
+        font-size: 16px;       
+           
+    }
+    
+    .nav-menu a:hover {
+        color: #F8F8F8;
+        transition: .20s;
+    
+    }
+    
+    /* The hero image */
+    .hero-image {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.384)), url("./images/jr-korpa-ZkngO3nRFCY-unsplash.jpg");
+        height: 106%;
+        background-repeat: no-repeat;
+        background-size: 1980px 1020px;
+        margin-top: -5.5%;
+        
+        
+    }
+      
+    /* Place text in the image */
+    .hero-text {
+        text-align: left;        
+        margin-top: 35%;
+        margin-left: 5%;
+        transform: translate(-50%, -50%);
+        color: #F8F8F8;
+        font-family: 'Karla';
+        font-size: 10px; 
+        word-break: normal;
+    }
+
+    .hero-text p {
+        margin-left: -1%;
+        font-size: 10px;
+        margin-top: 3%;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 25px;
+        column-gap: 25px;
+        row-gap: 75px;
+    }
+
+    
+      
+    .grid-item {
+        width: 85px;
+        height: 75px;
+        background-color: #CCC5C6;
+        color: #F8F8F8;  
+        align-items: center; 
+        border: none; 
+        border-radius: 12px;
+        box-shadow: rgba(145, 2, 2, 0.863) 0 15px 30px -5px;
+        box-sizing: border-box;
+        font-family: 'Karla';
+        font-size: 10px;
+        line-height: -1em;
+        text-decoration: none;
+        text-align: center;
+        margin-left: 15%;  
+        padding: 10%;
+        
+    }
+
+    .grid-item a {
+        font-size: 10px;
+    }
+
+    footer {
+        height: 78px; 
+        background-color: #CCC5C6;
+        margin-top: -4%;
+        font-size: 5px; 
+        font-family: 'Karla';  
+        color: #47525E; 
+    }
+    
+    footer ul li {
+        list-style: none;
+        display: inline-block;
+        margin-left: -1%;
+        margin-top: 2%;
+
+    }
+    
+    footer a {
+        font-size: 17px;        
+        color: black;
+        margin-top: 1.5%;
+        text-decoration: none;
+        
+    }
+    
+    footer a:hover {
+        transform: translate(-50%, -50%);
+        color: #F8F8F8;
+        transition: .20s;
+        text-decoration: none;
+    }
+    
+    .center {
+        margin-left: 45%;
+        height: 15px;
+        width: 15px;
+    }
+
+    .bell {
+        height: 15px;
+        width: 15px;
+    }
+
+}

@@ -311,7 +311,7 @@ footer a:hover {
     
     footer ul li {
         list-style: none;
-        margin-left: -7%;
+        margin-left: -9%;
         display: inline-block;
         padding-left: 7%;
         margin-top: 2%;
@@ -346,3 +346,56 @@ footer a:hover {
 }
 
 }
+
+@media (min-width: 360px) and (max-width: 780px){
+    
+iframe {
+    margin-top: 74%;
+    margin-left: 10%;
+    border: 3px solid #F8F8F8;
+    border-radius: 6%;
+    height: fit-content;
+    width: fit-content;
+        
+} 
+
+.hero-text {
+    text-align: left;        
+    top: 24%;
+    margin-left: 36%;
+    transform: translate(-50%, -50%);
+    color: #F8F8F8;
+    font-family: 'Karla';
+    font-size: 13px; 
+    word-break: normal;
+    }
+ 
+}
+
+@media (min-width: 360px) and (max-width: 800px){
+    
+    iframe { 
+        margin-top: 78%;
+    }
+
+    footer {
+        font-size: 6.5px;
+    }
+
+    .center {
+        margin-left: 45%;
+        height: 18px;
+        width: 18px;
+    }
+    
+    .bell {
+        height: 16px;
+        width: 16px;
+        margin-left: -10%;
+    }
+
+}
+    
+
+
+

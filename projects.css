@@ -88,8 +88,9 @@ header {
     padding: 20px;
     font-size: 30px;
     text-align: center;
-    margin-left: 64%;  
-    padding: 10%;
+    margin-left: 64%;
+    margin-top: 10%;
+    
     
 }
 
@@ -214,7 +215,7 @@ footer a:hover {
     /* Place text in the image */
     .hero-text {
         text-align: left;        
-        top: 56%;
+        top: 75%;
         margin-left: 3%;
         transform: translate(-50%, -50%);
         color: #F8F8F8;
@@ -276,7 +277,7 @@ footer a:hover {
         list-style: none;
         margin-left: -7%;
         display: inline-block;
-        padding-left: 7%;
+        padding-left: 5%;
         margin-top: 2%;
         
         
@@ -297,14 +298,51 @@ footer a:hover {
         text-decoration: none;
     }
     
-.center {
-    margin-left: 45%;
-    height: 15px;
-    width: 15px;
-}
+    .center {
+        margin-left: 45%;
+        height: 15px;
+        width: 15px;
+    }
 
-.bell {
+    .bell {
     height: 12px;
     width: 12px;
+    }
 }
+
+@media (min-width: 360px) and (max-width: 780px){
+    .hero-text {
+        margin-top: -25%;
+
+    }
+
 }
+
+@media (min-width: 360) and (max-width:800px) {
+
+    footer {
+        font-size: 26.5px;
+        height: 94px;
+    }
+    
+
+    footer ul li {
+        margin-left: -8%;
+    }
+
+    .center {
+        margin-left: 40%;
+        height: 18px;
+        width: 18px;
+    }
+    
+    .bell {
+        height: 16px;
+        width: 16px;
+        margin-left: -10%;
+    }
+
+}
+
+
+
