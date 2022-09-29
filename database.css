@@ -344,7 +344,11 @@ footer a:hover {
     @media (min-width: 375px) and (max-width: 812px){
     
         .hero-text  {
-            margin-top: -35%;
+            margin-top: -5%;
+        }
+
+        .grid-container {
+            margin-left: -5%;
         }
 
         .bell {
