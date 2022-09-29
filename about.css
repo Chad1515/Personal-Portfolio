@@ -398,12 +398,16 @@ iframe {
 
 @media (min-width: 375px) and (max-width: 812px){
     
+
+    .hero-text{ 
+        margin-top: 30%;
+    }
     .hero-text p {
         font-size: 13.5px;
     }
 
     iframe {
-        margin-top: 85%;
+        margin-top: 95%;
     }
 
     footer ul li {
