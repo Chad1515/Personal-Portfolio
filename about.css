@@ -431,12 +431,26 @@ iframe {
 
     footer ul li {
         padding: 16px;
-    }
-
-    
+    }    
 
 }
+
+@media (min-width: 400px) and (max-width: 700px){
     
+    .hero-text {
+        margin-top: 20%;
+    }
 
+    footer {
+        height: 91px;
+    }
 
+    footer ul li {
+        padding: 18px;
+    }
 
+    footer a {
+        font-size: 21px;
+    }
+
+}

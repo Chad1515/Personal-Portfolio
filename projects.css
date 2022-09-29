@@ -374,5 +374,18 @@ footer a:hover {
     }
 }
 
+@media (min-width: 400px) and (max-width: 700px){
+    
+    .hero-text {
+        margin-top: -35%;
+    }
+
+    footer a {
+        font-size: 21px;
+    }
+
+    
+}
+
 
 

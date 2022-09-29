@@ -349,8 +349,24 @@ footer a:hover {
 
         .bell {
             margin-left: -17%;
+        }        
+    
+    }
+
+    @media (min-width: 400px) and (max-width: 700px){
+    
+        .hero-text {
+            margin-top: -25%;
+        }
+
+        footer ul li {
+            padding: 24px;
+            font-size: 5px;
+        }
+    
+        footer a {
+            font-size: 21px;
         }
     
         
-    
     }
