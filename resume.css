@@ -671,6 +671,10 @@ footer a:hover {
 
 @media (min-width: 375px) and (max-width: 812px){
     
+
+    .hero-text {
+        margin-top: 105%
+    }
     .hero-text p {
         font-size: 10px;
     }
@@ -690,6 +694,7 @@ footer a:hover {
 
     .card2 {
         margin-left: -69%;
+        height: 350px;
     }
     
     footer ul li {
