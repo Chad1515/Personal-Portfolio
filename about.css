@@ -9,6 +9,9 @@
 ==============================================
 */ 
 
+/**
+*stylings for the body
+*/
 body, html {
     height: 100%;
 }
@@ -17,11 +20,17 @@ body {
     margin: 0;
 }
 
+/**
+*stylings for the header
+*/
 header {
     height: 125px; 
     background-color: #CCC5C6;    
 }
 
+/**
+*stylings for the nav links
+*/
 .nav-menu li {
     display: inline-block; 
     margin: 45px 0px 0px 105px;
@@ -40,7 +49,7 @@ header {
 
 }
 
-/* The hero image */
+/* The hero image for the background of the body */
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.384)), url("./images/jr-korpa-ZkngO3nRFCY-unsplash.jpg");
     height: 106.75%;
@@ -72,7 +81,9 @@ header {
 
 
 
-
+/**
+*stylings for button that takes you user to aboout page
+*/
 button {
     margin-left: 39%;
     margin-top: 20%;
@@ -104,6 +115,9 @@ button a:hover {
     transition: .20s;
 }
 
+/**
+*images that appear on the page
+*/
 .gallery {
     float: right;
     margin-right: 10%;
@@ -119,6 +133,9 @@ img {
     text-decoration: none;
 }
 
+/**
+*Demon youtube video by Mountain Tomb - song that I wrote
+*/
 iframe {
     margin-top: 37%;
     margin-left: 34%;
@@ -127,6 +144,9 @@ iframe {
     
 }
 
+/**
+*stylings for the footer
+*/
 footer {
     height: 175px; 
     background-color: #CCC5C6;
@@ -163,6 +183,9 @@ footer a:hover {
     margin-left: 35%;
 }
 
+/**
+*responsive design
+*/
 @media (min-width: 360px) and (max-width: 640px){
 
     body, html {
@@ -347,6 +370,9 @@ footer a:hover {
 
 }
 
+/**
+*responsive design
+*/
 @media (min-width: 360px) and (max-width: 780px){
     
 iframe {
@@ -372,6 +398,9 @@ iframe {
  
 }
 
+/**
+*responsive design
+*/
 @media (min-width: 360px) and (max-width: 800px){
     
     iframe { 
@@ -396,6 +425,9 @@ iframe {
 
 }
 
+/**
+*responsive design
+*/
 @media (min-width: 375px) and (max-width: 812px){
     
 
@@ -427,6 +459,9 @@ iframe {
 
 }
 
+/**
+*responsive design
+*/
 @media (min-width: 390px) and (max-width: 844px){
 
     footer {
@@ -439,6 +474,9 @@ iframe {
 
 }
 
+/**
+*responsive design
+*/
 @media (min-width: 400px) and (max-width: 700px){
     
     .hero-text {

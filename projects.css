@@ -9,6 +9,7 @@
 ==============================================
 */ 
 
+/* stylings for the body */
 body, html {
     height: 100%;
 }
@@ -17,11 +18,13 @@ body {
     margin: 0;
 }
 
+/* stylings for the header */
 header {
     height: 125px; 
     background-color: #CCC5C6;    
 }
 
+/* styling for the nav menu links */
 .nav-menu li {
     display: inline-block; 
     margin: 45px 0px 0px 105px;
@@ -63,6 +66,7 @@ header {
     font-size: 30px; 
 }
 
+/* grid that holds cards */
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto ;
@@ -70,7 +74,8 @@ header {
     column-gap: 95px;
     row-gap: 75px;;
 }
-  
+
+/* styling for the grid cards */
 .grid-item {
     width: 300px;
     height: 200px;
@@ -92,13 +97,16 @@ header {
     margin-top: 10%;
     
     
+    
 }
 
+/*styling for the horizontal rule */
 hr {
     border: 1px solid #47525E;
     
 }
 
+/* stylings for the card */
 .card {
     height: 185px;
     background-color: #CCC5C6;
@@ -115,9 +123,11 @@ hr {
     padding: 20px;
     font-size: 30px;
     text-align: center;
-    margin-left: 60%;  
+    margin-left: 60%; 
+    
 }
 
+/* stylings for nav links in footer */
 a {
     font-size: 35px;
     font-family: "Karla";
@@ -128,9 +138,10 @@ a {
 a:hover {
     color: #F8F8F8;
     transition: .20s;
+    
 }
 
-
+/* styling the footer */
 footer {
     height: 175px; 
     background-color: #CCC5C6;
@@ -167,6 +178,9 @@ footer a:hover {
     margin-left: 35%;
 }
 
+/**
+*responsive design
+*/
 @media (min-width: 360px) and (max-width: 640px){
 
     body, html {
@@ -236,6 +250,7 @@ footer a:hover {
         padding: 25px;
         column-gap: 45px;
         row-gap: 75px;
+        
     }
 
     
@@ -257,6 +272,7 @@ footer a:hover {
         text-align: center;
         margin-left: 35%;  
         padding: 10%;
+        
         
     }
 
@@ -310,6 +326,9 @@ footer a:hover {
     }
 }
 
+/**
+*responsive design
+*/
 @media (min-width: 360px) and (max-width: 780px){
     .hero-text {
         margin-top: -25%;
@@ -318,6 +337,9 @@ footer a:hover {
 
 }
 
+/**
+*responsive design
+*/
 @media (min-width: 360) and (max-width:800px) {
 
     footer {
@@ -343,7 +365,9 @@ footer a:hover {
     }
 
 }
-
+/**
+*responsive design
+*/
 @media (min-width: 375px) and (max-width: 812px){
     
     .hero-text {
@@ -371,6 +395,9 @@ footer a:hover {
 
 }
 
+/**
+*responsive design
+*/
 @media (min-width: 390px) and (max-width: 844px){
 
     .bell {
@@ -378,6 +405,9 @@ footer a:hover {
     }
 }
 
+/**
+*responsive design
+*/
 @media (min-width: 400px) and (max-width: 700px){
     
     .hero-text {

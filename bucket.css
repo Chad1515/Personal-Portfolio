@@ -9,6 +9,9 @@
 ==============================================
 */ 
 
+/**
+*stylings for the body
+*/
 body, html {
     height: 100%;
 }
@@ -17,11 +20,17 @@ body {
     margin: 0;
 }
 
+/**
+*stylings for the header
+*/
 header {
     height: 125px; 
     background-color: #CCC5C6;    
 }
 
+/*
+*stylings for the nav links
+*/
 .nav-menu li {
     display: inline-block; 
     margin: 45px 0px 0px 105px;
@@ -40,7 +49,7 @@ header {
 
 }
 
-/* The hero image */
+/* The hero image for background of body */
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.384)), url("./images/jr-korpa-ZkngO3nRFCY-unsplash.jpg");
     height: 106.75%;
@@ -63,6 +72,9 @@ header {
     font-size: 30px; 
 }
 
+/*
+*styles for cards that hold bucket list items
+*/
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -93,11 +105,13 @@ header {
     
 }
 
+/* styling for horizontal rule */
 hr {
     border: 1px solid #47525E;
     
 }
 
+/* stylings for nav links in footer */
 a {
     font-size: 35px;
     font-family: "Karla";
@@ -110,7 +124,7 @@ a:hover {
     transition: .20s;
 }
 
-
+/* styling for footer and links in the footer */
 footer {
     height: 175px; 
     background-color: #CCC5C6;
@@ -147,6 +161,9 @@ footer a:hover {
     margin-left: 35%;
 }
 
+/**
+*responsive design
+*/
 @media (min-width: 360px) and (max-width: 640px){
 
     body, html {
@@ -289,6 +306,9 @@ footer a:hover {
 
 }
 
+/**
+*responsive design
+*/
 @media (min-width: 375px) and (max-width: 812px){
     
     .hero-text  {
@@ -322,6 +342,9 @@ footer a:hover {
 
 }
 
+/**
+*responsive design
+*/
 @media (min-width: 390px) and (max-width: 844px){
 
     footer ul li {
@@ -329,6 +352,9 @@ footer a:hover {
     }
 }
 
+/**
+*responsive design
+*/
 @media (min-width: 400px) and (max-width: 700px){
 
     .hero-text {

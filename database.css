@@ -9,6 +9,7 @@
 ==============================================
 */ 
 
+/* stylings for the body */
 body, html {
     height: 100%;
 }
@@ -17,11 +18,13 @@ body {
     margin: 0;
 }
 
+/* stylings for the header */
 header {
     height: 125px; 
     background-color: #CCC5C6;    
 }
 
+/* stylings for nav menu links */ 
 .nav-menu li {
     display: inline-block; 
     margin: 45px 0px 0px 105px;
@@ -63,6 +66,7 @@ header {
     font-size: 30px; 
 }
 
+/* stylings for the cards on the page */
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -70,7 +74,8 @@ header {
     column-gap: 95px;
     row-gap: 75px;;
 }
-  
+
+/* stylings for the card on the page */
 .grid-item {
     width: 350px;
     height: 185px;
@@ -93,11 +98,13 @@ header {
     
 }
 
+/* styles the horizontal rule */
 hr {
     border: 1px solid #47525E;
     
 }
 
+/* stylings for the nav links on the page */
 a {
     font-size: 35px;
     font-family: "Karla";
@@ -110,7 +117,7 @@ a:hover {
     transition: .20s;
 }
 
-
+/* stylings for the footer */
 footer {
     height: 175px; 
     background-color: #CCC5C6;
@@ -147,6 +154,9 @@ footer a:hover {
     margin-left: 35%;
 }
 
+/**
+*responsive design
+*/
 @media (min-width: 360px) and (max-width: 640px){
 
     body, html {
@@ -288,6 +298,9 @@ footer a:hover {
     width: 12px;
 }
 
+/**
+*responsive design
+*/
 @media (min-width: 360px) and (max-width: 780px){
     .hero-text {
         margin-top: -20%;
@@ -295,7 +308,9 @@ footer a:hover {
 
 }
     
-
+/**
+*responsive design
+*/
 @media (min-width: 414px) and (max-width: 896px){
     .hero-image {
         height: 85%;
@@ -341,6 +356,9 @@ footer a:hover {
         }
     }
 
+    /**
+*responsive design
+*/
     @media (min-width: 375px) and (max-width: 812px){
     
         .hero-text  {
@@ -356,7 +374,9 @@ footer a:hover {
         }        
     
     }
-
+/**
+*responsive design
+*/
     @media (min-width: 400px) and (max-width: 700px){
     
         .hero-text {

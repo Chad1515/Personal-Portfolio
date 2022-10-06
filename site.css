@@ -9,6 +9,7 @@
 ==============================================
 */ 
 
+/* stylings for the body */
 body, html {
     height: 100%;
 }
@@ -17,11 +18,13 @@ body {
     margin: 0;
 }
 
+/* stylings for the header */ 
 header {
     height: 125px; 
     background-color: #CCC5C6;    
 }
 
+/* stylings for the nav menu links */
 .nav-menu li {
     display: inline-block; 
     margin: 45px 0px 0px 105px;
@@ -63,14 +66,13 @@ header {
     font-size: 30px; 
 }
 
+
 .grid { 
     display: gird;
     grid-template-columns: auto auto;
 }
 
-
-
-
+/* styles button that takes user to about page */
 button {
     margin-left: 39%;
     margin-top: 20%;
@@ -102,6 +104,7 @@ button a:hover {
     transition: .20s;
 }
 
+/* stylings for images on page */
 .gallery {
     float: right;
     margin-right: 27%;
@@ -118,6 +121,7 @@ img {
     text-decoration: none;
 }
 
+/* stylings for the footer */ 
 footer {
     height: 175px; 
     background-color: #CCC5C6;
@@ -154,6 +158,9 @@ footer a:hover {
     margin-left: 35%;
 }
 
+/**
+*responsive design
+*/
 @media (min-width: 360px) and (max-width: 640px){
 
     body, html {
@@ -307,6 +314,9 @@ footer a:hover {
 
 }
 
+/**
+*responsive design
+*/
 @media (min-width: 360px) and (max-width: 680px){
     .hero-text {
         margin-top: -19%;
@@ -318,6 +328,9 @@ footer a:hover {
     }
 }
 
+/**
+*responsive design
+*/
 @media (min-width: 360px) and (max-width: 800px){
 
     footer {
@@ -326,7 +339,9 @@ footer a:hover {
 
 }
 
-
+/**
+*responsive design
+*/
 @media (min-width: 375px) and (max-width: 812px){
     
     footer ul li {
@@ -346,6 +361,9 @@ footer a:hover {
 
 }
 
+/**
+*responsive design
+*/
 @media (min-width: 390px) and (max-width: 844px){
 
     .hero-text {
@@ -360,6 +378,9 @@ footer a:hover {
 
 }
 
+/**
+*responsive design
+*/
 @media (min-width: 400px) and (max-width: 700px){
 
     .hero-text {
