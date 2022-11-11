@@ -57,7 +57,7 @@ header {
 .hero-text {
     text-align: left;
     position: absolute;
-    top: 81%;
+    top: 79%;
     left: 41%;
     transform: translate(-50%, -50%);
     color: #F8F8F8;
@@ -71,7 +71,7 @@ header {
     grid-template-columns: auto auto auto;
     padding: 25px;
     column-gap: 95px;
-    row-gap: 75px;;
+    row-gap: 5px;
 }
 
 /* stylings for the card on the page */
@@ -93,7 +93,7 @@ header {
     font-size: 30px;
     text-align: center;
     margin-left: 50%;
-    margin-top: 21%;  
+    margin-top: 19%;  
     
 }
 
