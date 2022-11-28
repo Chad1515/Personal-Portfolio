@@ -46,7 +46,7 @@ header {
 /* The hero image */
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.384)), url("./images/jr-korpa-ZkngO3nRFCY-unsplash.jpg");
-    height: 300%;
+    height: 355%;
     background-repeat: repeat;    
     margin-top: -.95%;
     
@@ -57,7 +57,7 @@ header {
 .hero-text {
     text-align: left;
     position: absolute;
-    top: 158%;
+    top: 185%;
     left: 41%;
     transform: translate(-50%, -50%);
     color: #F8F8F8;
