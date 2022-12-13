@@ -389,6 +389,7 @@ footer a:hover {
     }
 
     .bell {
+        margin-left: -10%;
         height: 16px;
         width: 16px; 
     }
