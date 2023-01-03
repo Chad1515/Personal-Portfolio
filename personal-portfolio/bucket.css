@@ -1,0 +1,373 @@
+/**
+==============================================
+; Title: Personal Portfolio
+; Author: Chad ONeal
+; Modified by: Chad ONeal
+; Date: 09/11/2022
+; Images: Background Image courtesy of unplash.com 
+; Description: HTML for personal portfolio
+==============================================
+*/ 
+
+/**
+*stylings for the body
+*/
+body, html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+/**
+*stylings for the header
+*/
+header {
+    height: 125px; 
+    background-color: #CCC5C6;    
+}
+
+/*
+*stylings for the nav links
+*/
+.nav-menu li {
+    display: inline-block; 
+    margin: 45px 0px 0px 70px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: #47525E;
+    font-family: 'Karla';
+    font-size: 30px;    
+}
+
+.nav-menu a:hover {
+    color: #F8F8F8;
+    transition: .20s;
+
+}
+
+/* The hero image for background of body */
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.384)), url("./images/jr-korpa-ZkngO3nRFCY-unsplash.jpg");
+    height: 106.75%;
+    background-repeat: no-repeat;
+    background-size: 1980px 1020px;
+    margin-top: -.95%;
+    
+    
+}
+  
+/* Place text in the image */
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+    color: #F8F8F8;
+    font-family: 'Karla';
+    font-size: 30px; 
+}
+
+/*
+*styles for cards that hold bucket list items
+*/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 25px;
+    column-gap: 95px;
+    row-gap: 75px;;
+}
+  
+.grid-item {
+    width: 250px;
+    height: 185px;
+    background-color: #CCC5C6;
+    color: #F8F8F8; 
+    align-items: center; 
+    border: none; 
+    border-radius: 12px;
+    box-shadow: rgba(145, 2, 2, 0.863) 0 15px 30px -5px;
+    box-sizing: border-box;
+    font-family: 'Karla';
+    font-size: 25px;
+    line-height: -1em;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 64%;  
+    padding: 12%;
+    
+}
+
+/* styling for horizontal rule */
+hr {
+    border: 1px solid #47525E;
+    
+}
+
+/* stylings for nav links in footer */
+a {
+    font-size: 35px;
+    font-family: "Karla";
+    text-decoration: none;
+    color: #47525E;
+}
+
+a:hover {
+    color: #F8F8F8;
+    transition: .20s;
+}
+
+/* styling for footer and links in the footer */
+footer {
+    height: 175px; 
+    background-color: #CCC5C6;
+    margin-top: -3%;
+    font-size: 30px; 
+    font-family: 'Karla';  
+    color: #47525E; 
+}
+
+footer ul li {
+    list-style: none;
+    margin-left: 2.5%;
+    display: inline-block;
+    
+}
+
+footer a {
+    font-size: 75px;
+    margin-left: 35%;
+    color: black;
+    margin-top: 1.5%;
+    text-decoration: none;
+    
+}
+
+footer a:hover {
+    transform: translate(-50%, -50%);
+    color: #F8F8F8;
+    transition: .20s;
+    text-decoration: none;
+}
+
+.center {
+    margin-left: 35%;
+}
+
+/**
+*responsive design
+*/
+@media (min-width: 360px) and (max-width: 640px){
+
+    body, html {
+        height: 100%;
+    }
+    
+    body {
+        margin: 0;
+    }
+    
+    header {
+        height: 115px; 
+        background-color: #CCC5C6;    
+    }
+    
+    .nav-menu li {
+        margin: 10px 8px 2px 48.5px;       
+        
+    }
+    
+    .nav-menu li a {
+        text-decoration: none;
+        color: #47525E;
+        font-family: 'Karla';
+        font-size: 16px;       
+           
+    }
+    
+    .nav-menu a:hover {
+        color: #F8F8F8;
+        transition: .20s;
+    
+    }
+    
+    /* The hero image */
+    .hero-image {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.384)), url("./images/jr-korpa-ZkngO3nRFCY-unsplash.jpg");
+        height: 106%;
+        background-repeat: no-repeat;
+        background-size: 1980px 1020px;
+        margin-top: -5.5%;
+        
+        
+    }
+      
+    /* Place text in the image */
+    .hero-text {
+        text-align: left;        
+        margin-top: 35%;
+        margin-left: 5%;
+        transform: translate(-50%, -50%);
+        color: #F8F8F8;
+        font-family: 'Karla';
+        font-size: 10px; 
+        word-break: normal;
+    }
+
+    .hero-text p {
+        margin-left: -1%;
+        font-size: 10px;
+        margin-top: 3%;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 25px;
+        column-gap: 25px;
+        row-gap: 75px;
+    }
+
+    
+      
+    .grid-item {
+        width: 85px;
+        height: 75px;
+        background-color: #CCC5C6;
+        color: #F8F8F8;  
+        align-items: center; 
+        border: none; 
+        border-radius: 12px;
+        box-shadow: rgba(145, 2, 2, 0.863) 0 15px 30px -5px;
+        box-sizing: border-box;
+        font-family: 'Karla';
+        font-size: 10px;
+        line-height: -1em;
+        text-decoration: none;
+        text-align: center;
+        margin-left: 15%;  
+        padding: 10%;
+        
+    }
+
+    .grid-item a {
+        font-size: 10px;
+    }
+
+    footer {
+        height: 78px; 
+        background-color: #CCC5C6;
+        margin-top: -4%;
+        font-size: 5px; 
+        font-family: 'Karla';  
+        color: #47525E; 
+    }
+    
+    footer ul li {
+        list-style: none;
+        display: inline-block;
+        margin-left: -1%;
+        margin-top: 2%;
+
+    }
+    
+    footer a {
+        font-size: 17px;        
+        color: black;
+        margin-top: 1.5%;
+        text-decoration: none;
+        
+    }
+    
+    footer a:hover {
+        transform: translate(-50%, -50%);
+        color: #F8F8F8;
+        transition: .20s;
+        text-decoration: none;
+    }
+    
+    .center {
+        margin-left: 45%;
+        height: 15px;
+        width: 15px;
+    }
+
+    .bell {
+        height: 15px;
+        width: 15px;
+    }
+
+}
+
+/**
+*responsive design
+*/
+@media (min-width: 375px) and (max-width: 812px){
+    
+    .hero-text  {
+        margin-top: 36%;
+    }
+
+    .grid-container {
+        margin-left: 4.5%;
+    }
+
+    .grid-item {
+        font-size: 11px;
+        
+    }
+
+    footer ul li {
+        margin-left: 1%;
+        margin-top: 4%;
+    }    
+
+    .center {
+        height: 20px;
+        width: 20px; 
+    }
+
+    .bell {
+        height: 16px;
+        width: 16px; 
+        margin-left: -14%;
+    }
+
+}
+
+/**
+*responsive design
+*/
+@media (min-width: 390px) and (max-width: 844px){
+
+    footer ul li {
+        padding: 2px;
+    }
+}
+
+/**
+*responsive design
+*/
+@media (min-width: 400px) and (max-width: 700px){
+
+    .hero-text {
+        margin-top: 20%;
+    }
+
+    footer ul li {
+        font-size: 7px;
+        margin-left: -2%;
+    }
+
+    .bell {
+        margin-left: -4%;
+    }
+
+}
