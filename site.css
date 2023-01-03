@@ -27,7 +27,7 @@ header {
 /* stylings for the nav menu links */
 .nav-menu li {
     display: inline-block; 
-    margin: 45px 0px 0px 105px;
+    margin: 45px 0px 0px 70px;
 }
 
 .nav-menu li a {
@@ -378,9 +378,6 @@ footer a:hover {
 
 }
 
-/**
-*responsive design
-*/
 @media (min-width: 400px) and (max-width: 700px){
 
     .hero-text {
@@ -393,6 +390,24 @@ footer a:hover {
         font-size: 5px;
     }
 
+}
+
+@media (min-width: 601px) and (max-width: 962px) {
+
+    .nav-menu li {
+        display: inline-block; 
+        
+        
+    }
+    
+    .nav-menu li a {
+        text-decoration: none;
+        color: #47525E;
+        font-family: 'Karla';
+        font-size: 19px; 
+        padding: 3px;
+        align-items: stretch;   
+    }
 }
 
 
