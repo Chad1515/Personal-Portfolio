@@ -1,0 +1,771 @@
+/**
+==============================================
+; Title: Personal Portfolio
+; Author: Chad ONeal
+; Modified by: Chad ONeal
+; Date: 09/11/2022
+; Images: Background Image courtesy of unplash.com 
+; Description: HTML for personal portfolio
+==============================================
+*/ 
+
+/*stylings for the body */
+body, html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+/* stylings for the header */
+header {
+    height: 125px; 
+    background-color: #CCC5C6;    
+}
+
+/* stylings for the nav menu links */
+.nav-menu li {
+    display: inline-block; 
+    margin: 45px 0px 0px 55px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: #47525E;
+    font-family: 'Karla';
+    font-size: 30px;    
+}
+
+.nav-menu a:hover {
+    color: #F8F8F8;
+    transition: .20s;
+
+}
+
+/* The hero image */
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.384)), url("./images/jr-korpa-ZkngO3nRFCY-unsplash.jpg");
+    height: 125%;
+    background-repeat: repeat;
+    background-size: 1980px 1020px;
+    margin-top: -.95%;
+    
+    
+}
+  
+/* Place text in the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 43%;
+    transform: translate(-50%, -50%);
+    color: #F8F8F8;
+    font-family: 'Karla';
+    font-size: 30px; 
+}
+
+.hero-text h1 {
+    color: #F8F8F8;
+    transform: translate(-50%, -50%);
+    margin-right: -50%;    
+    
+}
+
+/* styles the pdf downloadable link */
+b {
+    margin-left: -100%;
+    margin-top: -105%;
+    font-size: 55px;
+    display: inline-block;
+    color: #F8F8F8;
+    pointer-events: none;
+}
+
+h3 {
+    font-size: 29px;
+    margin-top: -9.75%;
+    margin-left: -89%;
+    color:#F8F8F8;
+}
+
+h3:hover {
+    color: #B82AFF;
+
+}
+
+/* styles the contact info card */
+.card1 {
+    width: 500px;
+    height: 265px;
+    background-color: #F8F8F8;
+    color: #47525E;    
+    border: none; 
+    border-radius: 12px;
+    box-sizing: border-box;
+    font-family: 'Karla';
+    font-size: 22px;
+    line-height: -1em;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 90%; 
+    margin-top: -25%;
+    margin-bottom: 35%;
+    
+}
+
+.card1 p {
+    color: #47525E;
+    font-size: 24px;
+    display: block;
+    margin-top: 4.5%;
+}
+
+.card1 p span {
+    color: black;
+    float: left;
+    margin-left: 5%;
+    font-weight: bold;
+}
+
+.card-title {
+    color: #47525E;
+    padding-top: 4%;
+    font-family: 'Karla';
+    font-size: 29px;
+    font-weight: normal;
+}
+
+/* syles links at bottom of contact info card */
+.card1 .card-bottom {
+    height: 80px;
+    width: 500px;
+    background-color: #CCC5C6;
+    border: none; 
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-top: 1px solid black;
+}
+
+
+.card1 .card-bottom li {
+    list-style: none;
+    display: inline-block;
+    margin-top: 2.5%;
+    size: 45px;  
+     
+}
+
+.card1 .card-bottom li a{
+    font-size: 50px;
+    padding: 30px;
+    color: black;    
+}
+
+.card1 .card-bottom li a:hover {
+    transform: translate(-50%, -50%);
+    color: #F8F8F8;
+    transition: .20s;
+    text-decoration: none;
+}
+
+/* styles skill bar card */
+.card2 {
+    background-color:#F8F8F8;
+    width: 124%; 
+    height: 140%;
+    margin-top: -22%;
+    border-radius: 2%;    
+}
+
+.card2 p {
+    color: #47525E;
+    font-size: 22px;
+    text-align: left;
+    padding: 2.5%;
+    margin-top: 1%;
+    margin-right: 2%;    
+    
+}
+
+.card2 .container .text {
+    float: left;
+    width: 49%;  
+    margin-left: 2.5px;
+    
+}
+
+.card2 .container .text p {
+    margin-right: 10%;
+}
+
+.card2 .container .chart {
+    float: right;
+    width: 51%; 
+         
+}
+
+.card2 p span {
+    font-weight: bold;
+    margin-top: -2%;
+    margin-left: 10px;   
+    
+}
+
+/* styles the skill bars */
+.skills {
+    float: right; 
+    width: 47%; 
+    background-color: #CCC5C6;
+    margin-right: 3%;
+    margin-top: -4%;   
+    
+}
+
+.html {
+    width: 97%;
+    height: 10px;
+    background-color: #B82AFF;
+    margin-right: 4%;   
+    
+}
+
+.css {
+    width: 94%;
+    height: 10px;
+    background-color:#B82AFF;
+    margin-right: 4%;
+    
+}
+
+.javascript {
+    width: 89%;
+    height: 10px;
+    background-color: #B82AFF;
+    margin-right: 4%;
+    
+}
+
+.front-end {
+    width: 85%;
+    height: 10px;
+    background-color: #B82AFF;
+    margin-right: 4%;
+        
+}
+
+/* styles the horizontal rule */
+hr {
+    margin-top: -4%;
+    border: .25px solid black;
+}
+
+/* styles the nav links in the footer */
+a {
+    font-size: 35px;
+    font-family: "Karla";
+    text-decoration: none;
+    color: #47525E;
+}
+
+a:hover {
+    color: #F8F8F8;
+    transition: .20s;
+}
+
+/* styles the footer */
+footer {
+    height: 175px; 
+    background-color: #CCC5C6;
+    margin-top: -3%;
+    font-size: 30px; 
+    font-family: 'Karla';  
+    color: #47525E; 
+}
+
+footer ul li {
+    list-style: none;
+    display: inline-block;
+    
+}
+
+footer a {
+    font-size: 75px;
+    margin-left: 35%;
+    color: black;
+    margin-top: 1.5%;
+    text-decoration: none;
+    
+}
+
+footer a:hover {
+    transform: translate(-50%, -50%);
+    color: #F8F8F8;
+    transition: .20s;
+    text-decoration: none;
+}
+
+.center {
+    margin-left: -15%;
+}
+
+.bell {
+    margin-right: 35%;
+}
+
+/**
+*responsive design
+*/
+@media (min-width: 360px) and (max-width: 640px){
+
+    body, html {
+        height: 100%;
+    }
+    
+    body {
+        margin: 0;
+    }
+    
+    header {
+        height: 115px; 
+        background-color: #CCC5C6;    
+    }
+    
+    .nav-menu li {
+        margin: 10px 8px 2px 48.5px;       
+        
+    }
+    
+    .nav-menu li a {
+        text-decoration: none;
+        color: #47525E;
+        font-family: 'Karla';
+        font-size: 16px;       
+           
+    }
+    
+    .nav-menu a:hover {
+        color: #F8F8F8;
+        transition: .20s;
+    
+    }
+    
+    /* The hero image */
+    .hero-image {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.384)), url("./images/jr-korpa-ZkngO3nRFCY-unsplash.jpg");
+        height: 120.75%;
+        background-repeat: no-repeat;
+        background-size: 1980px 1020px;
+        margin-top: -5.5%;
+        
+        
+    }
+      
+    /* Place text in the image */
+    .hero-text {
+        text-align: left;        
+        margin-top: 40%;
+        margin-left: 107%;
+        transform: translate(-50%, -50%);
+        color: #db1818;
+        font-family: 'Karla';
+        font-size: 10px; 
+        word-break: normal;
+    }
+
+    .hero-text p {
+        margin-left: -1%;
+        font-size: 10px;
+        margin-top: 3%;
+    }
+
+    .grid { 
+        display: grid;
+        grid-template-columns: auto auto;
+    }    
+    
+    
+    .hero-text b {
+        margin-top: 11%;
+        margin-left: -35%;
+    }
+
+    b {
+        margin-left: 5%;        
+        font-size: 25px;        
+        color: #F8F8F8;
+        pointer-events: none;
+    }
+        
+    h3 {
+        font-size: 15px;
+        margin-top: -28.75%;
+        margin-left: -39%;
+        color:#F8F8F8;
+    }
+    
+    h3:hover {
+        color: #B82AFF;
+    
+    }
+    
+    .card1 {
+        width: fit-content;
+        height: fit-content;
+        background-color: #F8F8F8;
+        color: #47525E;    
+        border: none; 
+        border-radius: 12px;
+        box-sizing: border-box;
+        font-family: 'Karla';
+        font-size: 10px;
+        line-height: -1em;
+        text-decoration: none;
+        text-align: center;
+        margin-top: 15%;
+        margin-left: -45%;
+        
+        
+    }
+    
+    .card1 p {
+        color: #47525E;
+        font-size: 10px;
+        display: block;
+        margin-top: 4.5%;
+    }
+    
+    .card1 p span {
+        color: black;
+        float: left;
+        margin-left: 5%;
+        font-weight: bold;
+    }
+    
+    .card-title {
+        color: #47525E;
+        padding-top: 4%;
+        font-family: 'Karla';
+        font-size: 10px;
+        font-weight: normal;
+    }
+    
+    .card1 .card-bottom {
+        height: fit-content;
+        width: fit-content;
+        background-color: #CCC5C6;
+        border: none; 
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+        border-top: 1px solid black;
+    }
+    
+    .card1 .card-bottom li {
+        list-style: none;
+        display: inline-block;
+        margin-top: 2.5%;
+        size: 10px;  
+         
+    }
+    
+    .card1 .card-bottom li a{
+        font-size: 10px;
+        
+        color: black;    
+    }
+    
+    .card1 .card-bottom li a:hover {
+        transform: translate(-50%, -50%);
+        color: #F8F8F8;
+        transition: .20s;
+        text-decoration: none;
+    }
+    
+    .card2 {
+        background-color:#F8F8F8;
+        width: 300px; 
+        height: 320px;
+        margin-top: -22%;
+        border-radius: 2%; 
+        margin-left: -65%;   
+    }
+    
+    .card2 p {
+        color: #47525E;
+        font-size: 10px;
+        text-align: left;
+        padding: 3%;
+        margin-top: -1%;
+        
+    }
+    
+    .card2 .container .text {
+        float: left;
+        width: fit-content;
+    }
+    
+    .card2 .container .chart {
+        float: right;
+        width: fit-content;
+             
+    }
+    
+    .card2 p span {
+        font-weight: bold;      
+        
+    }
+
+    .skills {
+        float: right; 
+        width: 47%; 
+        background-color: #CCC5C6;
+        margin-right: 3%;
+        margin-top: -7%;
+         
+        
+    }
+    
+    .html {
+        width: 97%;
+        height: 5px;
+        background-color: #B82AFF;
+        margin-right: 4%;
+          
+        
+    }
+    
+    .css {
+        width: 94%;
+        height: 5px;
+        background-color:#B82AFF;
+        margin-right: 4%;
+        
+    }
+    
+    .javascript {
+        width: 89%;
+        height: 5px;
+        background-color: #B82AFF;
+        margin-right: 4%;
+        
+    }
+    
+    .front-end {
+        width: 85%;
+        height: 5px;
+        background-color: #B82AFF;
+        margin-right: 4%;
+            
+    }
+        
+    
+    hr {
+        margin-top: -4%;
+        border: .25px solid black;
+    }
+    
+    footer {
+        height: 73px; 
+        background-color: #CCC5C6;
+        margin-top: -4%;
+        font-size: 6px; 
+        font-family: 'Karla';  
+        color: #47525E; 
+    }
+    
+    footer ul li {
+        list-style: none;
+        margin-left: -7%;
+        display: inline-block;
+        padding-left: 5%;
+        margin-top: 2%;
+        
+        
+    }
+    
+    footer a {
+        font-size: 15px;        
+        color: black;
+        margin-top: 1.5%;
+        text-decoration: none;
+        
+    }
+    
+    footer a:hover {
+        transform: translate(-50%, -50%);
+        color: #F8F8F8;
+        transition: .20s;
+        text-decoration: none;
+    }
+    
+.center {
+    margin-left: 45%;
+    height: 15px;
+    width: 15px;
+}
+
+.bell {
+    height: 12px;
+    width: 12px;
+}
+
+}
+
+/**
+*responsive design
+*/
+@media (min-width: 360px) and (max-width: 780px){
+    
+    iframe {
+        margin-top: 74%;
+        margin-left: 10%;
+        border: 3px solid #F8F8F8;
+        border-radius: 6%;
+        height: fit-content;
+        width: fit-content;
+            
+    }
+
+    .hero-text {
+        text-align: left;        
+        margin-top: 87%;
+        margin-left: 107%;
+        transform: translate(-50%, -50%);
+        color: #db1818;
+        font-family: 'Karla';
+        font-size: 10px; 
+        word-break: normal;
+    }
+
+    .hero-image {
+        height: 100%;
+    }
+
+    footer {
+        height: 89px;
+    }
+
+    footer a {
+        font-size: 20px;
+
+    }
+
+}
+
+/**
+*responsive design
+*/
+@media (min-width: 360px) and (max-width: 800px){
+    
+    .hero-image {
+        height: 123.75%;
+    }
+
+    footer {
+        font-size: 6.5px;
+        height: 94px;
+    }
+    
+
+    footer ul li {
+        margin-left: -8%;
+    }
+
+    .center {
+        margin-left: 40%;
+        height: 18px;
+        width: 18px;
+    }
+    
+    .bell {
+        height: 16px;
+        width: 16px;
+        margin-left: -10%;
+    }    
+
+}
+
+/**
+*responsive design
+*/
+@media (min-width: 375px) and (max-width: 812px){
+    
+
+    .hero-text {
+        margin-top: 105%
+    }
+    .hero-text p {
+        font-size: 10px;
+    }
+
+    .card1 {
+        margin-left: -59%;
+    }
+
+    .card1 .card-bottom {
+        height: 35px;
+    }
+
+    .card1 .card-bottom li a{
+        font-size: 20px;        
+        color: black;    
+    }
+
+    .card2 {
+        margin-left: -69%;
+        height: 385px;
+    }
+    
+    footer ul li {
+        margin-left: -7%;
+        margin-top: 4%;
+    }    
+
+    .center {
+        height: 20px;
+        width: 20px; 
+    }
+
+    .bell {
+        height: 16px;
+        width: 16px; 
+    }
+
+}
+
+/**
+*responsive design
+*/
+@media (min-width: 390px) and (max-width: 844px){
+
+    .hero-image {
+        height: 120%;
+    }
+
+    .hero-text {
+        margin-top: 85%;
+        margin-left: 99%;
+    }
+
+    .card1 {
+        margin-left: -55%;
+    }
+
+    .card2 {
+        margin-left: -64%;
+    }
+
+    footer ul li {
+        padding: 12px;
+    }
+
+}
+
+@media (min-width: 414px) and (max-width: 896px) {
+    .hero-image { 
+        height:115%;
+    }
+
+}
+
