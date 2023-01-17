@@ -46,7 +46,7 @@ header {
 /* The hero image */
 .hero-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.267), rgba(0, 0, 0, 0.384)), url("../images/jr-korpa-ZkngO3nRFCY-unsplash.jpg");
-    height: 106.75%;
+    height: 136%;
     background-repeat: repeat;
     background-size: 1980px 1020px;
     margin-top: -.95%;
