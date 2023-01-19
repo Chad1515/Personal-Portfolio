@@ -213,6 +213,10 @@ h3:hover {
     
 }
 
+.card2 .container .text {
+    margin-top: -1%;
+}
+
 /* styles the skill bars */
 .skills {
     float: right; 
@@ -248,7 +252,7 @@ h3:hover {
 }
 
 .front-end {
-    width: 85%;
+    width: 95%;
     height: 10px;
     background-color: #B82AFF;
     margin-right: 4%;
